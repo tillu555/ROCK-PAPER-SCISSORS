@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <h1>Cosmic Rock Paper Scissors</h1>
+
+        <div class="scores">
+            <div class="score-box">
+                <h3>Player</h3>
+                <div class="score-value" id="player-score">0</div>
+            </div>
+            <div class="score-box">
+                <h3>Computer</h3>
+                <div class="score-value" id="computer-score">0</div>
+            </div>
+            <div class="developer-credit">
+  Created & Developed by <strong>Laxmi Narasimha Reddy Mallireddy</strong>
+</div>
+        </div>
+
+        <div class="choices">
+            <div class="choice rock" data-choice="rock">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </div>
+            <div class="choice paper" data-choice="paper">
+                <i class="fa-solid fa-hand"></i>
+            </div>
+            <div class="choice scissors" data-choice="scissors">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="player-area">
+                <h2>Player</h2>
+                <div class="selection" id="player-selection">❓</div>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="computer-area">
+                <h2>Computer</h2>
+                <div class="selection" id="computer-selection">❓</div>
+            </div>
+        </div>
+
+        <div class="result" id="result">
+            Choose your weapon!
+        </div>
+
+        <button class="reset-btn" id="reset">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+
+
+</body>
+</html>
